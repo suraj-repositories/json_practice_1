@@ -1,0 +1,16 @@
+What is JSON ?
+
+* JSON stands for JavaScript Object Notation
+* JSON is a format for storing and transporting data.
+* JSON is often ueed when data is sent from a server to a web page.
+* JSON is lightweight data interchage format
+* JSON is language independent
+* JSON is "self-describing" and easy to understand
+
+JSON Syntax rules -
+* Data is in name/value pairs
+* Data is separated by commas
+* JSON Object are suffounded by curly braces {}.
+* Curly braces hold Objects
+* Squre brackets hold arrays
+

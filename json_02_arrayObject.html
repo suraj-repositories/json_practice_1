@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        
+        // You can create a array of values------------------
+
+        // let jsonObject = {
+        //     "names" : ["suraj", "shubham", "praveen", "saurabh"]
+        // }
+
+        // document.write(jsonObject.names);
+        // document.write("<br>");
+        // document.write(jsonObject.names[2]);
+
+
+        let newJsonObject = {
+            "FIFA" : [
+                {
+                    "country" : "Brazil",
+                    "BestPlayer" : "Naymar"
+                },
+                {
+                    "country" : "Portugal",
+                    "BestPlayer" : "Ronaldo"
+                },
+                {
+                    "country" : "Argentina",
+                    "BestPlayer" : "Messi"
+                }
+            ]
+        }
+
+
+        // document.write(newJsonObject);
+        // document.write("<br>");
+        // document.write(newJsonObject.FIFA)
+        // document.write("<br>");
+        // document.write(newJsonObject.FIFA[0]);
+        // document.write("<br>");
+
+        // document.write(newJsonObject.FIFA[0].country);
+        // document.write("<br>");
+
+        // document.write(newJsonObject.FIFA[0].BestPlayer);
+        // document.write("<br>");
+
+        /* Printing all values */
+        for(x in newJsonObject.FIFA){
+            // document.write(x);
+            for(inner_x in newJsonObject.FIFA[x]){
+                // document.write(inner_x);
+                document.write(newJsonObject.FIFA[x][inner_x] + "<br>");
+
+            }
+        }
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        // javascript object
+        let jsObject = {
+            firstname : "shubham",
+            lastname : "kumar",
+            age : 50         
+        }
+
+        // json object
+        let jsonObject = {
+            "firstname" : "shubham",
+            "lastname" : "kumar",
+            "age" : 50,
+            "profession" : "programming"
+        }
+
+        // document.write(jsonObject);
+        // document.wirte("<br>");
+        // document.write(jsonObject.firstname);
+        // document.wirte("<br>");
+
+
+        // MODIFY VALUE
+        jsonObject.firstname = "Praveen";
+
+        // ADD NEW KEY VALUE PAIR
+        jsonObject.address = "Ratanpur panki";
+
+        // DELETE KEY VALUE PAIR
+        delete jsonObject.address;
+
+        for(index in jsonObject){
+            document.write(jsonObject[index] + "<br>");
+        }
+
+    </script>
+
+</body>
+</html>
